@@ -1,1 +1,1 @@
-export {};
+export { SuperCheckbox } from './SuperCheckbox';

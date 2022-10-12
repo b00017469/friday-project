@@ -12,7 +12,7 @@ type SuperRadioPropsType = DefaultRadioPropsType & {
   onChangeOption?: (option: any) => void;
 };
 
-const SuperRadio: React.FC<SuperRadioPropsType> = ({
+export const SuperRadio: React.FC<SuperRadioPropsType> = ({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   type,
   name,
@@ -50,5 +50,3 @@ const SuperRadio: React.FC<SuperRadioPropsType> = ({
   // eslint-disable-next-line react/jsx-no-useless-fragment
   return <>{mappedOptions}</>;
 };
-
-export default SuperRadio;

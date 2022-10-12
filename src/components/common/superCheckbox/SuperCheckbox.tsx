@@ -13,7 +13,7 @@ type SuperCheckboxPropsType = DefaultInputPropsType & {
   spanClassName?: string;
 };
 
-const SuperCheckbox: React.FC<SuperCheckboxPropsType> = ({
+export const SuperCheckbox: React.FC<SuperCheckboxPropsType> = ({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
   onChange,
@@ -47,5 +47,3 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = ({
     </label> // благодаря label нажатие на спан передастся в инпут
   );
 };
-
-export default SuperCheckbox;

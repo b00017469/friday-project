@@ -15,7 +15,7 @@ type SuperRangePropsType = DefaultInputPropsType & {
   onChangeRange?: (value: number) => void;
 };
 
-const SuperRange: React.FC<SuperRangePropsType> = ({
+export const SuperRange: React.FC<SuperRangePropsType> = ({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   type, // достаём и игнорируем чтоб нельзя было задать другой тип инпута
   onChange,
@@ -41,5 +41,3 @@ const SuperRange: React.FC<SuperRangePropsType> = ({
     />
   );
 };
-
-export default SuperRange;

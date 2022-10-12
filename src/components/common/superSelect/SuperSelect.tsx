@@ -12,7 +12,7 @@ type SuperSelectPropsType = DefaultSelectPropsType & {
   onChangeOption?: (option: any) => void;
 };
 
-const SuperSelect: React.FC<SuperSelectPropsType> = ({
+export const SuperSelect: React.FC<SuperSelectPropsType> = ({
   options,
   onChange,
   onChangeOption,
@@ -40,5 +40,3 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
     </select>
   );
 };
-
-export default SuperSelect;

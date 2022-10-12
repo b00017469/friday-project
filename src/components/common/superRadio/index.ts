@@ -1,1 +1,1 @@
-export {};
+export { SuperRadio } from './SuperRadio';

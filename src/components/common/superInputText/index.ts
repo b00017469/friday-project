@@ -1,1 +1,1 @@
-export {};
+export { SuperInputText } from './SuperInputText';
