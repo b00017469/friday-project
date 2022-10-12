@@ -2,6 +2,7 @@
   "name": "friday-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://b00017469.github.io/friday-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -22,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint-fix": "eslint --fix"
+    "lint-fix": "eslint --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "**/*.{js,ts,jsx,tsx}": [
@@ -59,6 +62,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.0",
     "prettier": "^2.7.1"
   }
