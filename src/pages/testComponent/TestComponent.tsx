@@ -8,7 +8,7 @@ import {
   SuperRadio,
   SuperRange,
   SuperSelect,
-} from '../common';
+} from '../../components';
 
 export const TestComponent = (): ReactElement => {
   return (
